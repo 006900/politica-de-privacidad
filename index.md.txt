@@ -1,33 +1,139 @@
-Términos y Condiciones de Uso
-Titular: Alan Cristaldo Benítez Contacto: alanbenites999@gmail.com Jurisdicción aplicable: Tribunales Ordinarios de la Provincia de Buenos Aires, República Argentina.
-2.1. Aceptación de los Términos
-Al descargar, instalar o utilizar la aplicación PC Build AR, el usuario (en adelante, "el Usuario") manifiesta haber leído, comprendido y aceptado sin reservas los presentes Términos y Condiciones. Si no está de acuerdo con los mismos, debe abstenerse de utilizar la Aplicación y desinstalarla inmediatamente.
-2.2. Naturaleza de la Aplicación (Carácter Informativo y Orientativo)
-•
-PC Build AR es una herramienta digital de carácter estrictamente informativo y orientativo.
-•
-Las sugerencias de compatibilidad brindadas por la Aplicación ("este producto puede llegar a ser compatible con lo que estás buscando") son estimaciones basadas en especificaciones técnicas generales y no constituyen una garantía absoluta, peritaje técnico ni certificación de funcionamiento conjunto entre piezas de hardware.
-•
-Precios de Referencia: Los precios y valores monetarios mostrados en la Aplicación son puramente referenciales, calculados o estimados en base al valor histórico de lanzamiento de cada producto o datos orientativos de mercado. PC Build AR no es una tienda oficial, no vende hardware directamente ni garantiza precios de venta reales, vigentes o stock en comercios minoristas.
-2.3. Propiedad Intelectual
-•
-Todos los derechos de propiedad intelectual e industrial sobre el diseño de la interfaz, logotipos, estructura de código fuente, marcas y contenidos gráficos de PC Build AR pertenecen de forma exclusiva a Alan Cristaldo Benítez.
-•
-Queda prohibida la reproducción, copia, modificación, distribución o explotación comercial no autorizada de cualquier elemento de la Aplicación.
-2.4. Publicidad, Enlaces de Afiliados y Referidos
-•
-La Aplicación incluye espacios publicitarios (banners y anuncios de pantalla completa / intersticiales) provistos por redes publicitarias de terceros (ej. Google AdMob).
-•
-La Aplicación podrá integrar enlaces de referidos y programas de afiliados con tiendas de informática y comercio electrónico. PC Build AR puede percibir comisiones por compras realizadas a través de dichos enlaces externos, sin que esto implique responsabilidad alguna sobre las transacciones comerciales, garantías, envíos o políticas de devolución de dichas tiendas terceras.
-2.5. Exención de Responsabilidad
-Bajo ninguna circunstancia Alan Cristaldo Benítez será responsable por:
-•
-Daños directos, indirectos, incidentales o consecuentes (incluyendo daños a componentes de hardware, incompatibilidades físicas de piezas, fallas de energía o pérdida de datos) derivados del uso o interpretación de la información brindada por la Aplicación.
-•
-Decisiones de compra o ensamblaje de ordenadores personales tomadas por el Usuario en base a las estimaciones de compatibilidad o precios de referencia de la Aplicación.
-•
-Interrupciones temporales del servicio debido a fallas en la red de internet, mantenimiento de servidores (Supabase/Firebase) o cortes en los servicios de terceros.
-2.6. Modificaciones de la Aplicación y Términos
-El desarrollador se reserva el derecho absoluto de modificar, suspender o discontinuar (temporal o permanentemente) cualquier función de la Aplicación, así como actualizar estos Términos y Condiciones en cualquier momento sin previo aviso.
-2.7. Ley Aplicable y Jurisdicción
-Cualquier controversia derivada de la interpretación, validez o cumplimiento de los presentes Términos y Condiciones será sometida a la jurisdicción de los Tribunales Ordinarios de la Provincia de Buenos Aires, República Argentina, renunciando el Usuario a cualquier otro fuero o jurisdicción.
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - PC Build AR</title>
+    <style>
+        :root {
+            --bg-color: #f8f9fa;
+            --card-color: #ffffff;
+            --text-main: #212529;
+            --text-muted: #495057;
+            --border-color: #dee2e6;
+            --accent-color: #000000;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-color);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border-color);
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--accent-color);
+            margin-top: 0;
+            margin-bottom: 10px;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--accent-color);
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        p, li {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            text-align: justify;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .meta-info {
+            background-color: var(--bg-color);
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 4px solid var(--accent-color);
+            margin-bottom: 30px;
+        }
+
+        .meta-info p {
+            margin: 5px 0;
+            font-size: 0.9rem;
+        }
+
+        .bold {
+            font-weight: 600;
+            color: var(--text-main);
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #6c757d;
+            border-top: 1px solid var(--border-color);
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Política de Privacidad</h1>
+    
+    <p>La presente Política de Privacidad establece los términos en que <span class="bold">PC Build AR</span> (en adelante, "la Aplicación") usa y protege la información que es proporcionada por sus usuarios al momento de utilizar la aplicación móvil. Esta política ha sido redactada en concordancia con la legislación vigente en la República Argentina en materia de protección de datos personales (Ley N° 25.326 y normas complementarias).</p>
+
+    <h2>1.1. Información que Recopilamos</h2>
+    <ul>
+        <li><span class="bold">Datos almacenados localmente:</span> Actualmente, la Aplicación almacena información sobre tus componentes de hardware favoritos directamente en tu dispositivo utilizando una base de datos local (Room Database).</li>
+        <li><span class="bold">Futuros registros y autenticación (Supabase / Firebase):</span> En futuras actualizaciones, la Aplicación incorporará sistemas de autenticación de usuarios mediante servicios de terceros (tales como Supabase o Firebase) para permitirte iniciar sesión, sincronizar tus favoritos y respaldar tus datos en la nube. Al momento de registrarte, podremos recopilar información básica como tu dirección de correo electrónico y credenciales de acceso.</li>
+        <li><span class="bold">Datos de navegación y consultas de hardware:</span> Las búsquedas, filtros y consultas de componentes se comunican con nuestros servidores para brindarte la información del catálogo.</li>
+        <li><span class="bold">Datos publicitarios y analíticos:</span> Mediante la integración de redes publicitarias (como Google AdMob), se podrán recopilar identificadores de publicidad del dispositivo y datos anónimos de interacción para mostrar banners y anuncios de pantalla completa (intersticiales).</li>
+    </ul>
+
+    <h2>1.2. Uso de la Información</h2>
+    <p>La información recopilada será utilizada exclusivamente para los siguientes fines:</p>
+    <ul>
+        <li>Proveer, operar y mejorar el catálogo de componentes de PC y las herramientas de búsqueda y filtrado.</li>
+        <li>Gestionar y sincronizar tus listas de favoritos (tanto a nivel local como en la nube con futuras cuentas de usuario).</li>
+        <li>Mostrar publicidad relevante (banners y anuncios intersticiales) gestionada a través de redes publicitarias autorizadas.</li>
+        <li>Facilitar enlaces de referidos y afiliados con tiendas de hardware asociadas.</li>
+        <li>Atender consultas, soporte técnico y comunicaciones relacionadas con la Aplicación a través del correo alanbenitez999@gmail.com.</li>
+    </ul>
+
+    <h2>1.3. Compartir Información con Terceros</h2>
+    <p>Tus datos personales no serán vendidos, alquilados ni cedidos a terceros, salvo en los siguientes casos necesarios para el funcionamiento de la Aplicación:</p>
+    <ul>
+        <li><span class="bold">Proveedores de infraestructura y autenticación:</span> Supabase y Firebase para el alojamiento de datos y gestión de cuentas de usuario.</li>
+        <li><span class="bold">Redes publicitarias:</span> Google AdMob u otras plataformas para la gestión y visualización de anuncios.</li>
+        <li><span class="bold">Tiendas afiliadas:</span> Al hacer clic en enlaces de referidos o afiliados, interactúas directamente con plataformas externas cuyas propias políticas de privacidad regirán su tratamiento de datos.</li>
+    </ul>
+
+    <h2>1.4. Seguridad de los Datos</h2>
+    <p>Alan Cristaldo Benítez adopta las medidas técnicas y organizativas necesarias para garantizar la seguridad y confidencialidad de los datos personales, evitando su alteración, pérdida, tratamiento o acceso no autorizado.</p>
+
+    <footer>
+        <p>&copy; 2026 PC Build AR. Todos los derechos reservados.</p>
+    </footer>
+</div>
+
+</body>
+</html>
